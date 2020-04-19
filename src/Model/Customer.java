@@ -5,7 +5,6 @@ public class Customer {
 	private int customerID;
 	private String firstName;
 	private double credit;
-	
 	public Customer(int customerID, String firstName, double credit) {
 		this.customerID = customerID;
 		this.firstName = firstName;
