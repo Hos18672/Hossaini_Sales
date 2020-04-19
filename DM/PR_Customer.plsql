@@ -2,6 +2,7 @@ create or replace procedure PR_Customer is
  v_n  number;
  begin
  
+
   Select count(*) into v_n 
   from All_TABLES
       where OWNER = 'DEMO' AND Table_name = 'CUSTOMER';
